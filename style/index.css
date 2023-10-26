@@ -1,0 +1,42 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 0px;
+    margin-top: -1.1%;
+    background-color: aquamarine;
+}
+
+
+header{
+    background-color: aqua;
+}
+
+nav{
+    margin-left: 1%;
+    margin-top: 0px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+main{
+    margin-left: 1%;
+    background-color: aquamarine;
+}
+
+button{
+    background-color: aqua;
+    border-radius: 50px;
+    border-color: aqua;
+}
+button:hover{
+    background-color: rgb(105, 185, 185);
+    border-radius: 50px;
+    border-color: rgb(105, 185, 185);
+}
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+footer{
+    background-color: aqua;
+    padding: 1em;
+    position: absolute;
+    bottom: 0;
+    width: 98.3%;
+}

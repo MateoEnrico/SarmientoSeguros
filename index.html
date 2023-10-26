@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarmiento Seguros</title>
+    <link rel="stylesheet" href="./style/index.css">
+    <script defer src="./Js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Sarmiento Seguros</h1>
+            <p>Cotiza tus vehículos al mejor precio con Sarmiento seguros</p>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <div>
+            <h3>Cotiza tu seguro:</h3>
+            <div>
+                <label for="tipoVehiculo">Ingresar el tipo de vehículo:</label>
+                <input type="text" id="tipoVehiculo">
+            </div>
+            <div>
+                <label for="marcaVehiculo">Ingresar marca del vehículo:</label>
+                <input type="text" id="marcaVehiculo">
+            </div>
+            <div>
+                <label for="anioVehiculo">Ingresar año del vehículo:</label>
+                <input type="number" id="anioVehiculo">
+            </div>
+            <div>
+                <label for="precioVehiculo">Ingresar precio del vehículo:</label>
+                <input type="number" id="precioVehiculo">
+            </div>
+            <div>
+                <button onclick="obtenerValor(document.getElementById('tipoVehiculo').value, document.getElementById('marcaVehiculo').value, document.getElementById('anioVehiculo').value, document.getElementById('precioVehiculo').value)">Cotizar</button>
+            </div>
+            <div id="resultado"></div>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <p>Todos los derechos reservados por Sarmiento seguros, empresa dedicada a la aseguración de vehículos</p>
+    </footer>
+</body>
+
+</html>
